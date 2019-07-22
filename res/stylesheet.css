@@ -30,10 +30,16 @@ a:hover {
   color: #a54747;
 }
 
-li {
+ul li {
   display: block;
   list-style-type: none;
   margin-bottom: .5em;
+  max-width: 650px;
+}
+
+li {
+  margin-bottom: .5em;
+  max-width: 650px;
 }
 
 pre.code {
@@ -53,6 +59,7 @@ ul {
   padding-inline-start: 0px;
   -webkit-padding-start: 0px;
   padding-start: 0px;
+  max-width: 650px;
 }
 
 p {

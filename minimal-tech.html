@@ -28,6 +28,56 @@
         kind. I will sometimes post random small things about what I've
         discovered and/or tried, and what is my experience about it.
       </p>
+      <log-entry id="22-july-2019">
+        <h2>22 July, 2019 - Too minimal<sup><a href="#22-july-2019">(link)</a></sup></h2>
+        <p>
+          Today I was configuring snippets system to write more productive
+          scala, and found out one fun thing: it is possible to get too dip
+          into minimal tech things to achieve same productivity level as for
+          more powerful technologies.
+        </p>
+        <p>
+          As I am a professional software engineer, my work includes writing
+          lots and lots of code. Sometimes it is hugely boilerplated one,
+          copied from one place, pasted at another with slight editing. Why
+          copied? Because it is easier to make new mistakes while rewriting
+          same boilerplate. So, to decrease such copy-pasting I've decided to
+          use snippets system in vim. I decided to use UltiSnips<sup><a href="#2-july-2019-link-1">1</a></sup>
+          because it allows to script all the things the way I want, including
+          shell scripting, python, etc.
+        </p>
+        <p>
+          However, things got harder, when I started writing snippets to make
+          exhaustive snippets to do pattern-matching on different types for
+          scala. I understood, that it is not that easy to write them, having
+          only the <i>text</i>. I have to infer types one of next ways:
+        </p>
+        <ol type="1">
+          <li>Find out the type of object myself and use matching snippet</li>
+          <li>
+            Write a runtime guesser of type and use python scripting
+            capability to achieve what I need
+          </li>
+        </ol>
+        <p>
+          The first one will take more effort in process of coding. The second
+          one will become a burden in the RAM and make my setup <i>not that
+          minimal</i>. You see? It is possible to get too minimal. Code is not
+          just a simple text, it is highly structured text with pretty specific
+          concepts and links through it that are important to make development
+          process faster.
+        </p>
+        <p>
+          I probably will end up writing my own type parser (or integrating
+          with metals project for scala), because it is a pretty interesting
+          task and it will highly optimize my workflow. But this will make my
+          vim editing setup for scala less of editor but more of IDE.
+        </p>
+        <p>
+          Getting minimal is good. But it is possible to easily get
+          <i>too minimal</i> to be productive.
+        </p>
+      </log-entry>
       <log-entry id="2-july-2019">
         <h2>2 July, 2019 - @bitwarden/cli && mail in the terminal (part 2) <sup><a href="#2-july-2019">(link)</a></sup></h2>
         <p>
