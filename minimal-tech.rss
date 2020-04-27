@@ -1,0 +1,68 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Alex Cleac's Minimal Tech</title>
+    <link>http://cleac.me/minimal-tech.html</link>
+    <description>
+      It is a small project of mine about possibility to live in modern life
+      while using the most of things software gives to us. The general idea is
+      about using simpler or/and older software and try getting most of it,
+      including all the requirements of modern tech.
+    </description>
+    <language>en</language>
+    <!-- @call new_post_rss.py -->
+    <item>
+      <title>Call it Minimal Tech!</title>
+      <link>http://cleac.me/minimal-tech.html#20-jan-2020</link>
+      <pubDate>Mon, 20 Jan 2020 20:30:43 +0200</pubDate>
+      <guid>http://cleac.me/minimal-tech.html#20-jan-2020</guid>
+    </item>
+    <item>
+      <title>Happy New Year and Merry Christmas 🎄</title>
+      <link>http://cleac.me/minimal-tech.html#02-jan-2020</link>
+      <guid>http://cleac.me/minimal-tech.html#02-jan-2020</guid>
+      <pubDate>Thu, 02 Jan 2020 20:30:43 +0200</pubDate>
+    </item>
+    <item>
+      <title>Unplug from Hive Mind</title>
+      <link>https://cleac.me/minimal-tech.html#15-oct-2019</link>
+      <guid>https://cleac.me/minimal-tech.html#15-oct-2019</guid>
+      <pubDate>Tue, 15 Oct 2019 20:45:59 +0300</pubDate>
+    </item>
+    <item>
+      <title>Too minimal</title>
+      <link>https://cleac.me/minimal-tech.html#22-july-2019</link>
+      <guid>https://cleac.me/minimal-tech.html#22-july-2019</guid>
+      <pubDate>Mon, 22 Jul 2019 16:22:33 +0300</pubDate>
+    </item>
+    <item>
+      <title>@bitwarden/cli and mail in the terminal (part 2)</title>
+      <link>https://cleac.me/minimal-tech.html#2-july-2019</link>
+      <guid>https://cleac.me/minimal-tech.html#2-july-2019</guid>
+      <pubDate>Tue, 02 Jul 2019 22:05:00 +0300</pubDate>
+    </item>
+    <item>
+      <title>@bitwarden/cli</title>
+      <link>https://cleac.me/minimal-tech.html#14-june-2019</link>
+      <guid>https://cleac.me/minimal-tech.html#14-june-2019</guid>
+      <pubDate>Fri, 14 Jun 2019 22:07:24 +0300</pubDate>
+    </item>
+    <item>
+      <title>Tile this window!</title>
+      <link>https://cleac.me/minimal-tech.html#10-june-2019</link>
+      <guid>https://cleac.me/minimal-tech.html#10-june-2019</guid>
+      <pubDate>Mon, 10 Jun 2019 20:34:34 +0300</pubDate>
+    </item>
+    <item>
+      <title>Music in the Terminal</title>
+      <link>https://cleac.me/minimal-tech.html#22-may-2019</link>
+      <guid>https://cleac.me/minimal-tech.html#22-may-2019</guid>
+      <pubDate>Wed, 22 May 2019 18:05:22 +0300</pubDate>
+    </item>
+    <item>
+      <title>18 May, 2019 - Getting Brütal</title>
+      <link>https://cleac.me/minimal-tech.html#18-may-2019</link>
+      <guid>https://cleac.me/minimal-tech.html#18-may-2019</guid>
+      <pubDate>Sat, 18 May 2019 09:53:36 +0300</pubDate>
+    </item>
+  </channel>
+</rss>
