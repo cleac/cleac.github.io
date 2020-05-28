@@ -11,6 +11,12 @@
     <language>en</language>
     <!-- @call new_post_rss.py -->
     <item>
+      <title>Automating stuff your own way</title>
+      <link>http://cleac.me/minimal-tech.html#26-may-2020</link>
+      <guid>http://cleac.me/minimal-tech.html#26-may-2020</guid>
+      <pubDate>Thu, 28 May 2020 19:59:00 +0300</pubDate>
+    </item>
+    <item>
       <title>Laptopless</title>
       <link>http://cleac.me/minimal-tech.html#01-may-2020</link>
       <guid>http://cleac.me/minimal-tech.html#01-may-2020</guid>

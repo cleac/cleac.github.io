@@ -32,6 +32,77 @@
         <a href="/minimal-tech.rss">Subscribe via RSS</a>
       </p>
       <!-- @call new_post.py -->
+      <log-entry id="28-may-2020">
+        <h2>26 May, 2020 - <a href="#28-may-2020">Automating stuff your own way</a></h2>
+        <p>
+          Recently, I've made some automations of the way I am using my laptop.  I've made
+          pretty basic ones: automatic placement specific windows at specific tags in
+          AwesomeWM, slight simplifications in Vim, automations to this blog and a bit
+          more. And abandoned my own laptop for some time, because I had lots of things to
+          do for work (which I do for now using MacBook, which is pretty bad in my
+          opinion).  Yesterday, I've logged in to my own laptop, and found, how I
+          undervalued those simple automations are. Thanks to easiness on resources of my
+          window manager and overall tooling I am using, I have got everything running
+          almost instantly. My computer started slower than all the programs I need and
+          use: terminal emulator, DeadBeef, Transmission, Syncthing client and some small
+          utility apps. All of this has happened without me even noticing or thinking
+          about it.
+        </p>
+        <p>
+          Basically, this is the thing, why we have computers in first place: to simplify our
+          quality of life by automating stuff here and there. And we've made those things way
+          harder to achieve by decreasing entry level to computing. They say that almost every
+          person can now do simple automations using Shortcuts app on
+          iPhone<sup><a href="#28-may-2020-link-1">[1]</a></sup>. But are they using it? Only
+          power users are, while all the other people don't. This "simpler" interface did not
+          decrease entry level to automation, because people still need to learn how to
+          use it, while they make a lot harder to maintain and develop more complex logic
+          (if compared to good old code). So it became less accessible than the way of
+          automation, available to Linux and *BSD, because, you have to learn the
+          automation using every single platform you have: on Web it is IFTTT, on iPhone
+          it is Shortcuts, etc... Every single "user friendly" platform has it's
+          block-scheme-like UI to configure chains and no other way of doing
+          it. Is it actually <b>the best</b> way? I think not!
+        </p>
+        <p>
+          I have automated different parts of my workflows using different languages. I use
+          Bash for some small scripts that automate my shell, like
+          roj.sh<sup><a href="#28-may-2020-link-2">[2]</a></sup>
+          (for managing tmux sessions for projects), Python for some slightly more complex
+          automations, like rw.py<sup><a href="#28-may-2020-link-3">[3]</a></sup>
+          (for simplifying updating RSS feeds and writing this blog) and lua for window
+          manager automations (because I like using AwesomeWM and am too lazy to learn
+          anything else). But basically people are not required to do it the way I do.
+          Someone will automate everything in Emacs using Lisp. Other will use Python or
+          JavaScript for literally everything, or use Haskell, Erlang and C all together.
+          The choice is <b>yours</b> to make, not developer's or marketologist's.
+        </p>
+        <p>
+          You don't have to be a programmer to tell computer what to do. You can mostly
+          copy-and-paste different code snippets to make things working the way you like. Even
+          if you do it this way, it is more accessible and easier way than learning how to do it
+          with every single possible block-scheme-alike UI to tell computers what to do. Because
+          why otherwise all programming industry still write code and not move blocks?
+        </p>
+        Links:
+        <ul>
+          <li id="28-may-2020-link-1">
+            [1]
+            <a href="https://apps.apple.com/us/app/shortcuts/id915249334">Shortcuts app on AppStore</a></li>
+          <li id="28-may-2020-link-2">
+            [2]
+            <a href="https://git.sr.ht/~alexcleac/dotfiles/tree/master/bin/roj.sh">roj.sh</a>
+            — script in my dotfiles for managing tmux sessions based on projects
+            directory basis
+          </li>
+          <li id="28-may-2020-link-3">
+            [3]
+            <a href="https://git.sr.ht/~alexcleac/dotfiles/tree/master/bin/rw.py">rw.py</a>
+            — script that implements some elements of static site
+            generators without their bloat
+          </li>
+        </ul>
+      </log-entry>
       <log-entry id="01-may-2020">
         <h2>01 May, 2020 - <a href="#01-may-2020">Laptopless</a></h2>
         <p>
