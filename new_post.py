@@ -1,4 +1,5 @@
 import os
+import os.path
 
 from datetime import date, datetime
 from email.utils import formatdate
@@ -10,6 +11,7 @@ EDITOR = os.environ.get('EDITOR', 'vi')
 
 
 def program(*a, **kw):
+    filename = kw['filename']
     title = input('Enter title: ').strip()
 
     valid_file = False
@@ -52,7 +54,8 @@ def program(*a, **kw):
         storage.write(rfcformat + '\n')
         storage.write(title + '\n')
 
-    os.spawnvpe(os.P_WAIT, 'rw.py', ('rw.py', 'minimal-tech.rss'), os.environ)
+    feedname = os.path.splitext(filename)[0]
+    os.spawnvpe(os.P_WAIT, 'rw.py', ('rw.py', feedname + '.rss'), os.environ)
     os.remove('.head')
 
     return result
