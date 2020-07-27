@@ -10,5 +10,11 @@
     </description>
     <language>en</language>
     <!-- @call new_post_rss.py -->
+    <item>
+      <title>First update</title>
+      <link>http://cleac.me/olifant.html#27-jul-2020</link>
+      <guid>http://cleac.me/olifant.html#27-jul-2020</guid>
+      <pubDate>Mon, 27 Jul 2020 18:34:54 -0000</pubDate>
+    </item>
   </channel>
 </rss>
