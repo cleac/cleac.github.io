@@ -1,0 +1,14 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Olifant</title>
+    <link>http://cleac.me/olifant.html</link>
+    <description>
+      Olifant is a FOSS client for Mastodon, targeted at
+      elementary OS ecosystem. This is a log of changes,
+      thoughts and actions that are taking place with the
+      project.
+    </description>
+    <language>en</language>
+    <!-- @call new_post_rss.py -->
+  </channel>
+</rss>
