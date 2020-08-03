@@ -11,6 +11,12 @@
     <language>en</language>
     <!-- @call new_post_rss.py -->
     <item>
+      <title>Pleroma opening</title>
+      <link>http://cleac.me/olifant.html#03-aug-2020</link>
+      <guid>http://cleac.me/olifant.html#03-aug-2020</guid>
+      <pubDate>Mon, 03 Aug 2020 14:50:30 -0000</pubDate>
+    </item>
+    <item>
       <title>First update</title>
       <link>http://cleac.me/olifant.html#27-jul-2020</link>
       <guid>http://cleac.me/olifant.html#27-jul-2020</guid>
