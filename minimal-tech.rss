@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     <title>Alex Cleac's Minimal Tech</title>
     <link>http://cleac.me/minimal-tech.html</link>
@@ -9,7 +9,7 @@
       including all the requirements of modern tech.
     </description>
     <language>en</language>
-    <!-- @call new_post_rss.py -->
+    <!-- @call scripts/new_post_rss.py -->
     <item>
       <title>Automating stuff your own way</title>
       <link>http://cleac.me/minimal-tech.html#26-may-2020</link>
