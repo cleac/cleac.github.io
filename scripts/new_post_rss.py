@@ -1,6 +1,5 @@
 HOSTNAME = 'http://cleac.me/'
 
-
 def identifier(it):
     return it
 
@@ -10,7 +9,8 @@ def program(*a, **kw):
         [filename,
          linkformat,
          rfcformat,
-         title] = filter(identifier, storage.read().split('\n'))
+         title,
+         *_] = filter(identifier, storage.read().split('\t\n'))
     url = f'{HOSTNAME}{filename}#{linkformat}'
 
     return [
@@ -19,5 +19,5 @@ def program(*a, **kw):
         f'  <link>{url}</link>\n',
         f'  <guid>{url}</guid>\n',
         f'  <pubDate>{rfcformat}</pubDate>\n',
-        '</item>\n',
+        '   </item>\n',
     ]

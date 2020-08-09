@@ -49,10 +49,11 @@ def program(*a, **kw):
         result = [x.decode('utf-8') for x in tempfile.readlines()]
 
     with open('.head', 'w') as storage:
-        storage.write(kw['filename'] + '\n')
-        storage.write(linkformat + '\n')
-        storage.write(rfcformat + '\n')
-        storage.write(title + '\n')
+        storage.write(kw['filename'] + '\t\n')
+        storage.write(linkformat + '\t\n')
+        storage.write(rfcformat + '\t\n')
+        storage.write(title + '\t\n')
+        storage.write('\n'.join(result))
 
     feedname = os.path.splitext(filename)[0]
     os.spawnvpe(os.P_WAIT, 'rw.py', ('rw.py', feedname + '.rss'), os.environ)
